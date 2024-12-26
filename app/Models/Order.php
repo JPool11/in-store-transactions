@@ -9,7 +9,7 @@ class Order extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['customer_id', 'date']; // Ensure the fields are in fillable.
+    protected $fillable = ['customer_id', 'date']; 
 
     public function products()
     {

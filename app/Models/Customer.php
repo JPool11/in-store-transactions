@@ -9,7 +9,7 @@ class Customer extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name']; // Make sure to include the name field in fillable.
+    protected $fillable = ['name'];
 
     public function orders()
     {
